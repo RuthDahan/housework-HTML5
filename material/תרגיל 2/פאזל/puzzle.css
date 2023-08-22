@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    background-color: azure;
+
+}
+++++++++
+table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 14vw;
+    height: 14vh;
+}
+td{
+    border-color: black;
+    width: 14vw;
+    height: 14vh;
+}
+p{
+    color: rgb(177, 6, 134);
+    font-size:xx-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    color: rgb(177, 6, 134);
+    font-size:80px;
+}

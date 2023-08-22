@@ -1,0 +1,29 @@
+footer {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    font-family: "sofia", sans-serif;
+    font-size: xx-large;
+}
+header {
+    background-color: black;
+    color: white;
+    height: 140px;
+    width: 100%;
+    text-align: center;
+    font-family: "sofia", sans-serif;
+    font-size: 100px;
+    position: top;
+}
+input{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+#draw{
+    padding: 80px;
+    float: right;
+}

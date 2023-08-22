@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lesson1.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="html-com-logo (1).png" alt="logo">
+    </header>
+
+    <aside>
+        <nav>
+            <a href="lesson1.html">Home</a>
+            <br>
+            <a href="Question.html">Question</a>
+            <br>
+            <a href="student.html">Studet details</a>
+            <br>
+            <a href="Exc_5.html">design</a>
+        </nav>
+    </aside>
+    <br><br><br><br><br><br>
+    <article>
+        
+            Choose background-color:
+            <input type="color" name="background-color" id="background-color"><br>
+            <input type="radio" name="background-color" onchange="session(name)" value="background"> <label>לא קבוע</label>
+            <input type="radio"  name="background-color" onchange="local(name)"><label>קבוע</label>
+            <br><br><br>
+
+            Choose font-color:
+            <input type="color" name="ont-color" id="font-color"><br>
+            <input type="radio" name="ont-color" onchange="session(name)"> <label>לא קבוע</label>
+            <input type="radio"  name="ont-color" onchange="local(name)"><label>קבוע</label>
+            <br><br><br>
+
+            Choose font Size:
+            <input list="font-size">
+            <datalist  name="font-size" id="font-size">
+                <option value="xx-small"></option>
+                <option value="small">small</option>
+                <option value="medium">medium</option>
+                <option value="large">large</option>
+                <option value="xx-large">xx-large</option>
+            </datalist><br>
+
+            <input type="radio" name="font-size" onchange="session(name)"> <label>לא קבוע</label>
+            <input type="radio"  name="font-size" onchange="local(name)"><label>קבוע</label><br>
+            <br><br><br>
+            
+
+            Choose font Family:
+            <input list="font-type">
+            <datalist  name="font-type" id="font-type">
+                <option>'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif</option>
+                <option>'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif</option>
+                <option>'Courier New', Courier, 'Courier New', Courier, monospace</option>
+                <option>'Courier New', Courier, monospace</option>
+                <option>Georgia, 'Times New Roman', Times, serif</option>
+            </datalist><br>
+
+            <input type="radio" name="font-type" onchange="session(name)"> <label>לא קבוע</label>
+            <input type="radio"  name="font-type" onchange="local(name)"><label>קבוע</label><br>
+            <br><br><br>
+
+            <input type="submit" value="submit"  name="submit" id="button" onclick="Update()">
+            
+
+    </article>
+
+        <footer>
+            ruth dahan, email: html5@gmail.com, tel:0558636797 
+        </footer>
+        <script src="Exc_5.js"></script>
+        
+</body>
+</html>

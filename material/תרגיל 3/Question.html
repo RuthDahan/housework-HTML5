@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lesson1.css">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <header>
+            <img src="html-com-logo (1).png" alt="logo">
+        </header>
+        <aside>
+            <nav>
+                <a href="lesson1.html">Home</a>
+                <br>
+                <a href="Question.html">Question</a>
+                <br>
+                <a href="student.html">Studet details</a>
+                <br>
+            <a href="Exc_5.html">design</a>
+            </nav>
+        </aside>
+        <article>
+        <!-- הוספתי גם שמע בתשובות השגויות  ליעילות ונוחות האתר -->
+        <br>
+        <p>What year did HTML come out?</p>
+            <input type="radio" name="1" onchange="theWorng()">
+            <label>1998</label><br>
+            <input type="radio"  name="1" onchange="thegood()">
+            <label>1991</label><br>
+            <input type="radio"  name="1"  onchange="theWorng()">
+            <label>1867</label>
+            <br>
+        
+     
+        <p>What does html?</p>
+            <input type="radio" name="2" onchange="thegood()">
+            <label>Hyper Text Markup Languag</label><br>
+            <input type="radio"  name="2" onchange="theWorng()">
+            <label>nothing</label><br>
+            <input type="radio"  name="2"  onchange="theWorng()">
+            <label>He Try Marker Languag</label>
+            <br>
+
+        <p>When start talking about html5?</p>
+            <input type="radio" name="3" onchange="theWorng()">
+            <label>1998</label><br>
+            <input type="radio"  name="3" onchange="theWorng()">
+            <label>2020</label><br>
+            <input type="radio"  name="3"  onchange="thegood()">
+            <label>2009</label>
+            <br>
+
+        <p>התקבלו המושגים CSS1) גליון סגנון) -ו Jav</p>
+            <input type="radio" name="4" onchange="thegood()">
+            <label>1996</label><br>
+            <input type="radio"  name="4" onchange="theWorng()">
+            <label>2000</label><br>
+            <input type="radio"  name="4"  onchange="theWorng()">
+            <label>1899</label>
+            <br>
+        </article>
+
+
+
+
+        <audio id="Worng">
+            <source src="not good.mp3" type="audio/mpeg" />
+            <source src="not good.mp3" type="audio/ogg" />
+            Your browser does not support the audio element7.
+        </audio>
+
+        <audio id="good">
+            <source src="very good.WAV" type="audio/mpeg" />
+            <source src="very good.WAV" type="audio/ogg" />
+            Your browser does not support the audio element7.
+        </audio>
+        <script>
+
+            function thegood() {
+                document.getElementById("good").play();
+            }
+            function theWorng() {
+                document.getElementById("Worng").play();
+            }
+        </script>
+   <script src="Exc_5.js"></script>
+    <footer>
+        ruth dahan, email: html5@gmail.com, tel:0558636797 
+    </footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="music.css">
+
+<header>
+    music
+</header>
+
+<section id="draw">
+    <canvas id="canvas" width="1000" height="250"></canvas>
+</section>
+
+<article>
+    <section>
+        <input type="button" value="דו ג" onclick="drawNote(250,75,'dog')"><br><br>
+        <input type="button" value="רה ג" onclick="drawNote(250,50,'re')"><br><br>
+        <input type="button" value="מי" onclick="drawNote(50,250,'mi')"><br><br>
+        <input type="button" value="פה" onclick="drawNote(25,225,'fa')"><br><br>
+        <input type="button" value="סול" onclick="drawNote(0,200,'sol')"><br><br>
+        <input type="button" value="לה" onclick="drawNote(0,175,'la')"><br><br>
+        <input type="button" value="סי" onclick="drawNote(250,100,'si')"><br><br>
+    </section>
+
+    <section>
+        <audio id="dog">
+            <source src="צלילים/do-80236.mp3" type="audio/mp3">
+        </audio>
+        <audio id="fa">
+            <source src="צלילים/fa-78409.mp3" type="audio/mp3">
+        </audio>
+        <audio id="la">
+            <source src="צלילים/la-80237.mp3" type="audio/mp3">
+        </audio>
+        <audio id="mi">
+            <source src="צלילים/mi-80239.mp3" type="audio/mp3">
+        </audio>
+        <audio id="re">
+            <source src="צלילים/re-78500.mp3" type="audio/mp3">
+        </audio>
+        <audio id="si">
+            <source src="צלילים/si-80238.mp3" type="audio/mp3">
+        </audio>
+        <audio id="sol">
+            <source src="צלילים/sol-101774.mp3" type="audio/mp3">
+        </audio>
+    </section>
+</article>
+
+<footer>
+    © כל הזכויות שמורות לליבי ברנד 0583284644
+</footer>
+
+<script src="music.js"></script>

@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(15, 15, 15);
+    
+}
+p{
+    color:white;
+    font-size: 25px;
+}
+
+header{
+    padding: 10px;
+    text-align: center;
+    background-color:white;
+}
+
+  
+
+
+article{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+aside{
+    background-color: white;
+    float: right;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding-top: 20%;
+   
+    
+    
+}
+
+footer{
+    text-align: center;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(84, 13, 102);
+    font-size: 20px;
+     
+   }

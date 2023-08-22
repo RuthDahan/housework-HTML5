@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>puzzle</title>
+    <link rel="stylesheet" href="puzzle.css">
+</head>
+<body>
+    <p>גררי את החלקים למקומם  ותגלי תמונה מרהיבה! </p>
+    <section>
+   <table border="=1" cellspacing="0">
+        <tr>
+            <td id="1" ondrop="drop(event)" ondragover="allowDrop(event)" ></td>
+            <td id="2" ondrop="drop(event)" ondragover="allowDrop(event)" ></td>
+            <td id="3" ondrop="drop(event)" ondragover="allowDrop(event)" ></td>
+        </tr>
+
+        <tr>
+            <td id="4" ondrop="drop(event)" ondragover="allowDrop(event)" ></td>
+            <td id="5" ondrop="drop(event)" ondragover="allowDrop(event)" ></td>
+            <td id="6" ondrop="drop(event)" ondragover="allowDrop(event)" ></td>
+        </tr>
+
+        <tr>
+            <td id="7" ondrop="drop(event)" ondragover="allowDrop(event)" ></td>
+            <td id="8" ondrop="drop(event)" ondragover="allowDrop(event)" ></td>
+            <td id="9" ondrop="drop(event)" ondragover="allowDrop(event)" ></td>
+        </tr>
+
+   </table> 
+    </section>
+    <br> <br> <br> <br>
+
+   <img id="drag1" data-Pazel="1" src="6/מסך_001.jpg" draggable="true" ondragstart="drag(event)" />
+   <img id="drag2" data-Pazel="2" src="6/מסך_002.jpg" draggable="true" ondragstart="drag(event)" />
+   <img id="drag3" data-Pazel="3" src="6/מסך_003.jpg" draggable="true" ondragstart="drag(event)" />
+   <img id="drag4" data-Pazel="4" src="6/מסך_004.jpg" draggable="true" ondragstart="drag(event)" />
+   <img id="drag5" data-Pazel="5" src="6/מסך_005.jpg" draggable="true" ondragstart="drag(event)" />
+   <img id="drag6" data-Pazel="6" src="6/מסך_006.jpg" draggable="true" ondragstart="drag(event)" />
+   <img id="drag7" data-Pazel="7" src="6/מסך_007.jpg" draggable="true" ondragstart="drag(event)" />
+   <img id="drag8" data-Pazel="8" src="6/מסך_008.jpg" draggable="true" ondragstart="drag(event)" />
+   <img id="drag9" data-Pazel="9" src="6/מסך_009.jpg" draggable="true" ondragstart="drag(event)" />
+   <audio src="6/audio.WAV" id="win" ></audio>
+   
+   <h1 id="h"></h1>
+   <script src="puzzla.js"></script> 
+   
+</body>
+</html>
